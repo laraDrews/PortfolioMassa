@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/logo.png';
-import navIcon1 from '../assets/img/nav-icon1.png';
-import navIcon2 from '../assets/img/nav-icon2.png';
-import navIcon3 from '../assets/img/nav-icon3.png';
+import { Navbar, Nav, Container, Col, Row } from "react-bootstrap";
+import logo from '../assets/img/logo1.png';
+import github from '../assets/img/github.png';
+import instagram from '../assets/img/instagram.png';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -37,7 +36,11 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+
+            <div className="social-icon"> 
+              <img src={logo} alt="Logo" />
+            </div>
+
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -50,12 +53,12 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://github.com/laraDrews"><img src={github} alt="" /></a>
+                <a href="https://www.instagram.com/jorge_gamer_gostoso/"><img src={instagram} alt="" /></a>
+                <a href="#"><img src={github} alt="" /></a>
               </div>
               <HashLink to='#connect'>
-                <button className="vvd"><span>Contato</span></button>
+                
               </HashLink>
             </span>
           </Navbar.Collapse>

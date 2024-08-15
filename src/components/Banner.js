@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.png";
+import logo from "../assets/img/knight2.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -50,23 +50,39 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
+        <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Esse é o Portfolio</span>
                 <h1>{` `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "de Lara Drews" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Eu sou o Roblox</p>
-                  <button onClick={() => console.log('connect')}> Contato <ArrowRightCircle size={25} /></button>
+                <p>Eu sou o Roblox</p>
+                <div style={{ display: 'flex', gap: '10px' }}>
+                  <a href="https://www.canva.com/design/DAFn2zn6DjQ/ZERhsp_M_1-B2yF_O8pLjw/edit?utm_content=DAFn2zn6DjQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
+                    <button onClick={() => console.log('connect')} style={{ display: 'flex', alignItems: 'center' }}>
+                      Portfólio 1°tri <ArrowRightCircle size={25} />
+                    </button>
+                  </a>
+                  <a href="http://portfolio-laradrews.vercel.app/?authuser=1&hl=pt-BR" target="_blank" rel="noopener noreferrer">
+                    <button onClick={() => console.log('connect')} style={{ display: 'flex', alignItems: 'center' }}>
+                      Portfólio 2°tri <ArrowRightCircle size={25} />
+                    </button>
+                  </a>
+                  <a href="https://www.canva.com/design/DAGBdk-WYqE/R9SNRAXOpwJ19_MbG9GG3Q/edit?utm_content=DAGBdk-WYqE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
+                    <button onClick={() => console.log('connect')} style={{ display: 'flex', alignItems: 'center' }}>
+                      Currículo <ArrowRightCircle size={25} />
+                    </button>
+                  </a>
+                </div>
               </div>}
             </TrackVisibility>
           </Col>
-          <Col xs={12} md={6} xl={5}>
+          <Col xs={10} md={5} xl={3}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={logo} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
           </Col>
