@@ -18,6 +18,10 @@ import ti2 from "../assets/img/ti2.png";
 import ti3 from "../assets/img/ti3.jpg";
 import ti4 from "../assets/img/ti4.png";
 import ti6 from "../assets/img/ti6.png";
+import ti7 from "../assets/img/ti7.png";
+import ti8 from "../assets/img/ti8.png";
+import ti9 from "../assets/img/ti9.jpg";
+import ti10 from "../assets/img/ti10.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -106,7 +110,7 @@ export const Projects = () => {
 
       // Projetos de TI aqui
     ],
-    ti: [
+    modelagem: [
       {
         title: "Sala de aula Invertida",
         description: "Habilidades Desenvolvidas: Apresentação de metodologias ágeis e habilidades de comunicação e facilitação. \n\n Objetivo da Atividade: Ensinar e demonstrar a aplicação da metodologia Scrum em projetos. \n\n Assunto: Metodologia Scrum e suas práticas para gestão de projetos. \n\n Crítica Pessoal: A apresentação foi informativa e prática sobre a metodologia Scrum.",
@@ -115,13 +119,13 @@ export const Projects = () => {
       },
       {
         title: "Wireframe de Alta Fidelidade",
-        description: "Descrição do Projeto de TI 1",
+        description: "Habilidades desenvolvidas: Design UX/UI, prototipagem e mapeamento de informações. \n\n Objetivo: Criar uma representação visual detalhada que permita entender a estrutura e a navegação do site. \n\n Assunto: Localização e informações sobre os pontos de coleta de lixo de Florianópolis. \n\n Comentário pessoal: Foi uma atividade divertida que colocou nossa criatividade e trabalho em grupo ao máximo.",
         link: "https://www.figma.com/design/Wx6TaYUznXaQeT8DZkTBpd/SA?node-id=0-1&t=IR79RsR2NMUbmOtZ-1",
         imgUrl: ti2,
       },
       {
         title: "Regra de Negócios - SA",
-        description: "Descrição do Projeto de TI 1",
+        description: "Habilidades: Análise e modelagem de regras, documentação, comunicação e uso de ferramentas especializadas.\n\nObjetivo: Garantir consistência, eficiência e conformidade nas operações e decisões da organização.\n\nComentário Pessoal: É crucial para manter a organização alinhada com seus objetivos e assegurar operações eficazes e conformes.",
         imgUrl: ti3,
       },
     
@@ -130,7 +134,7 @@ export const Projects = () => {
     banco: [
       {
         title: "Modelo Lógico",
-        description: "aaaaaaaa",
+        description: "Habilidades: Modelagem e normalização de dados e consultas SQL.\n\nObjetivo: Organizar e gerenciar dados de alunos, professores e cursos para facilitar operações escolares.\n\nAssunto: Estrutura de dados para alunos, professores, cursos e seus relacionamentos.\n\nComentário Pessoal: Essencial para a eficiência administrativa, melhorando a organização e a tomada de decisões na educação.",
         imgUrl: ti4,
         link: "https://docs.google.com/document/d/10CyJtvWkxJTfXrr87bm_DZGksfsvETQIMvDh7bJiE8o/edit?usp=sharing",
       },
@@ -138,31 +142,50 @@ export const Projects = () => {
         title: "Gestão de Consultório Médico",
         description: "aaaaaaaa",
         imgUrl: ti4,
-        link: "https://docs.google.com/document/d/10CyJtvWkxJTfXrr87bm_DZGksfsvETQIMvDh7bJiE8o/edit?usp=sharing",
+        link: "",
       },
       {
         title: "Normalização de Dados",
         description: "aaaaaaaa",
         imgUrl: ti6,
-        link: "https://docs.google.com/document/d/10CyJtvWkxJTfXrr87bm_DZGksfsvETQIMvDh7bJiE8o/edit?usp=sharing",
+        link: "",
       },
     ],
 
     desenvolvimento: [
       {
         title: "Calculadora de Horas",
-        description: "aaaaaaaa",
-        imgUrl: ti6,
+        description: "Habilidades: Programação, uso do VS Code, e desenvolvimento de interfaces. \n\nObjetivo: Calcular diferenças entre horários e somar horas, aparecendo o resultado.\n\nAssunto: Implementação de lógica para manipulação de horas e minutos, entrada e saída de dados.\n\nComentário Pessoal: Um projeto prático para aplicar habilidades de programação e gestão de tempo, utilizando uma IDE eficiente.",
+        imgUrl: ti7,
         link: "https://github.com/laraDrews/CalcHoras-Atualizado.git",
       },
-      
+      {
+        title: "API - GitHub",
+        description: "Habilidades Desenvolvidas: Desenvolvimento de interfaces, consumo de APIs, gerenciamento de estado e componentização.\n\nObjetivo: Construir uma interface que se comunica com uma API para exibir e enviar dados, e atualizar em tempo real,\n\nAssunto: Integração da aplicação React com a API, gerenciando dados e interatividade.\n\nComentário Pessoal: Proporciona uma experiência interativa e responsiva, aproveitando as capacidades do React para atualizar a interface dinamicamente.",
+        imgUrl: ti8,
+        link: "https://github.com/laraDrews/API.git",
+      },
+      {
+        title: "Trabalho API",
+        description: "Habilidades Desenvolvidas: Desenvolvimento de interfaces, consumo de APIs, gerenciamento de estado e componentização.\n\nObjetivo: Construir uma interface que se comunica com uma API para exibir e enviar dados, e atualizar em tempo real,\n\nAssunto: Integração da aplicação React com a API, gerenciando dados e interatividade.\n\nComentário Pessoal: Proporciona uma experiência interativa e responsiva, aproveitando as capacidades do React para atualizar a interface dinamicamente.",
+        imgUrl: ti8,
+        link: "https://github.com/laraDrews/API.git",
+      },
+      {
+        title: "Projeto Biblioteca",
+        description: "Habilidades: Programação orientada a objetos, desenvolvimento de APIs RESTful, autenticação, e criação de interfaces.\n\nObjetivo: Criar e integrar uma API para gerenciamento de dados da biblioteca e autenticação, além de desenvolver interfaces de front-end.\n\nAssunto: Implementação de lógica de negócios, manipulação de dados, e interfaces para autenticação e gestão de empréstimos.\n\nComentário Pessoal: Garantia de uma funcionalidade eficiente e uma boa experiência deusuário, integrando back-end e front-end.",
+        imgUrl: ti9,
+        link: "https://github.com/laraDrews/ProjBiblio.git",
+      },
     ],
-
+    
     implantacao: [
       {
-        
+        title: "CMS",
+        description: "Habilidades: Planejamento de projeto, configuração de CMS, desenvolvimento.\n\nObjetivo: Implantar o sistema CMS para a Brasil Veículos de forma coordenada e eficiente.\n\nAssunto: Implementação e integração de um CMS.\n\nComentário Pessoal: Um cronograma bem detalhado assegura a execução eficiente do projeto e a colaboração eficaz entre as equipes.",
+        imgUrl: ti10,
+        link: "https://docs.google.com/spreadsheets/d/1qdFIwHo4RUtBM3ieCYErhpFAYEncJD9TAyI0OF_yjqQ/edit?usp=sharing",
       },
-      
     ],
 
     ppe: [
@@ -198,7 +221,7 @@ export const Projects = () => {
                         <Nav.Link eventKey="natureza">Natureza</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="ti">Modelagem de Sistemas</Nav.Link>
+                        <Nav.Link eventKey="modelagem">Modelagem de Sistemas</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                       <Nav.Link eventKey="banco">Banco de Dados</Nav.Link>
