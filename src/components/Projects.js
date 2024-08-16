@@ -17,6 +17,7 @@ import ti1 from "../assets/img/ti1.png";
 import ti2 from "../assets/img/ti2.png";
 import ti3 from "../assets/img/ti3.jpg";
 import ti4 from "../assets/img/ti4.png";
+import ti5 from "../assets/img/ti5.png";
 import ti6 from "../assets/img/ti6.png";
 import ti7 from "../assets/img/ti7.png";
 import ti8 from "../assets/img/ti8.png";
@@ -140,9 +141,9 @@ export const Projects = () => {
       },
       {
         title: "Gestão de Consultório Médico",
-        description: "aaaaaaaa",
-        imgUrl: ti4,
-        link: "",
+        description: "Habilidades Desenvolvidas: Administração, comunicação, organização, finanças e atendimento ao cliente.\n\nObjetivo: Garantir uma operação eficiente e organizada, focada na satisfação dos pacientes e na otimização de recursos.\n\nAssunto: Envolve práticas administrativas, controle de agendamentos e registros, e coordenação de equipe.\n\nComentário Pessoal: Uma gestão eficaz é crucial para o sucesso e a qualidade do atendimento em um consultório médico, especialmente em um contexto complexo como o do Brasil.",
+        imgUrl: ti5,
+        link: "https://docs.google.com/document/d/17JnJz0cPv9ABHSJ_e52I4Dsd476KBY_8xjjvG4ri430/edit?usp=sharing",
       },
       {
         title: "Normalização de Dados",
