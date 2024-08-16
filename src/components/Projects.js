@@ -177,7 +177,7 @@ export const Projects = () => {
         title: "Projeto Biblioteca",
         description: "Habilidades: Programação orientada a objetos, desenvolvimento de APIs RESTful, autenticação, e criação de interfaces.\n\nObjetivo: Criar e integrar uma API para gerenciamento de dados da biblioteca e autenticação, além de desenvolver interfaces de front-end.\n\nAssunto: Implementação de lógica de negócios, manipulação de dados, e interfaces para autenticação e gestão de empréstimos.\n\nComentário Pessoal: Garantia de uma funcionalidade eficiente e uma boa experiência deusuário, integrando back-end e front-end.",
         imgUrl: ti9,
-        link: "https://github.com/laraDrews/ProjBiblio.git",
+        link: "https://drive.google.com/file/d/17fq3GSw-3SLF5I6m6WuvCU549GmraFTx/view?usp=sharing",
       },
     ],
     
