@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg2 from "../assets/img/project-img2.png";
+import { ArrowRightCircle } from 'react-bootstrap-icons';
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import nat1 from "../assets/img/nat1.png";
 import nat2 from "../assets/img/nat2.png";
@@ -8,6 +8,16 @@ import nat3 from "../assets/img/nat3.png";
 import nat4 from "../assets/img/nat4.png";
 import mat1 from "../assets/img/mat1.png";
 import mat2 from "../assets/img/mat2.png";
+import lin1 from "../assets/img/lin1.jpg";
+import lin2 from "../assets/img/lin2.jpeg";
+import hum1 from "../assets/img/hum1.jpg";
+import hum2 from "../assets/img/hum2.png";
+import hum3 from "../assets/img/hum3.jpg";
+import ti1 from "../assets/img/ti1.png";
+import ti2 from "../assets/img/ti2.png";
+import ti3 from "../assets/img/ti3.jpg";
+import ti4 from "../assets/img/ti4.png";
+import ti6 from "../assets/img/ti6.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -17,33 +27,38 @@ export const Projects = () => {
     // Projetos de Humanas aqui
     humanas: [
       {
-        title: "Relações ecológicas",
-        description: "Descrição do Projeto de Humanas 1",
-        imgUrl: nat1,
-        link: "https://www.canva.com/design/DAGGm-ohp8o/oDaGsdBQFUET2s7j5yXaDg/edit?utm_content=DAGGm-ohp8o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        title: "Enigma",
+        description: "Habilidades Desenvolvidas: Análise das dinâmicas de poder e fronteiras entre nações. \n\n Objetivo da Atividade: Compreender a geopolítica e a expansão territorial. \n\n Assunto: Relações de poder e disputas de território entre países. \n\n Crítica Pessoal: A atividade proporciona uma visão sobre como as nações interagem e competem.",
+        imgUrl: hum1,
+        link: "https://forms.gle/UfWEPuVYLifUWXLe8?authuser=1&hl=pt-BR"
       },
       {
-        title: "Circúitos Elétricos",
-        description: "Descrição do Projeto de Humanas 2",
-        imgUrl: nat2,
-        link: "https://www.canva.com/design/DAGEowJwJKw/Lu4jSOcrXwREDiNPFljwOg/edit?utm_content=DAGEowJwJKw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        title: "What the World Eats (Mexico)",
+        description: "Habilidades: Análise crítica de aspectos culturais, geográficos, políticos, sociais e econômicos do México. \n\n Objetivo da Atividade: Compreender melhor os aspectos de outro país.",
+        imgUrl: hum2,
+        link: "https://docs.google.com/document/d/18WoqLTItzyuVzbKP2PObYnelOku2GAQwcINDiZ6NyH0/edit?usp=sharing"
       },
       {
-        title: "Cartaz Uso do Plástico",
-        description: "Descrição do Projeto de Humanas 1",
-        imgUrl: nat3,
-        link: "https://www.canva.com/design/DAGJ4zkgiLY/HIlZvN8C61lY7NQV2W_HaQ/edit?utm_content=DAGJ4zkgiLY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        title: "ONHB",
+        description: "Habilidades Desenvolvidas: Análise de eventos históricos, pesquisa sobre temas específicos da história do Brasil, e compreender contextos históricos. \n\n Objetivo da Atividade: Promover o estudo e o conhecimento da história do Brasil, incentivando a pesquisa, a reflexão crítica e a análise detalhada de eventos e períodos históricos. \n\n Assunto: História do Brasil, incluindo eventos, figuras importantes e períodos significativos que moldaram o país. \n\n Crítica Pessoal: A Olimpíada oferece uma ótima oportunidade para aprofundar o conhecimento.",
+        imgUrl: hum3,
+        link: "https://www.canva.com/design/DAGOBwxN-EI/mCG57fc6M6OiLqjsYSQmsw/view?utm_content=DAGOBwxN-EI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview"
       },
 
       // Projetos de Linguagens aqui
     ],
     linguagens: [
       {
-        title: "Linguagens Project 1",
-        description: "Descrição do Projeto de Linguagens 1",
-        imgUrl: projImg2,
+        title: "Redação",
+        description: "Habilidades Desenvolvidas: Escrita argumentativa, análise crítica sobre políticas educacionais, e pesquisa sobre o impacto da valorização profissional na qualidade do ensino. \n\n Objetivo da Atividade: Explorar como a valorização dos profissionais da educação básica pública pode melhorar a qualidade do ensino. \n\n Assunto: O impacto da valorização dos educadores na educação básica pública, incluindo aspectos como salários, formação contínua e reconhecimento profissional. \n\n Crítica Pessoal: A redação destaca a necessidade de reconhecer e valorizar os educadores para melhorar a qualidade do ensino. ",
+        link: "https://www.canva.com/design/DAGOB-UK9qg/Y5c3eDo8egvs9lReGSqSyA/view?utm_content=DAGOB-UK9qg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+        imgUrl: lin1,
       },
-      
+      {
+        title: "Maquete",
+        description: "Ainda não concluimos esse trabalho.",
+        imgUrl: lin2,
+      },
       // Projetos de Matemática aqui
     ],
     matematica: [
@@ -67,38 +82,92 @@ export const Projects = () => {
         title: "Relações ecológicas",
         description: "Objetivo: Compreender as relações ecológicas entre organismos e sua influência nos ecossistemas.\n\n Habilidades Desenvolvidas: Entendimento das interações ecológicas. Avaliação dos impactos dessas relações.\n\n Crítica Pessoal: O trabalho ajuda a entender a complexidade dos ecossistemas, devido à variedade de interações.",
         imgUrl: nat1,
-        link: "https://www.canva.com/design/DAGGm-ohp8o/oDaGsdBQFUET2s7j5yXaDg/edit?utm_content=DAGGm-ohp8o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        link: "https://www.canva.com/design/DAGGm-ohp8o/qh5qgECj3eMWhsXm0FyAiw/view?utm_content=DAGGm-ohp8o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview"
       },
       {
         title: "Circúitos Elétricos",
         description: "Objetivo: Entender os conceitos fundamentais dos circuitos elétricos. \n\n Habilidades Desenvolvidas: Entendimento dos componentes e princípios dos circuitos elétricos. Uso de mapas mentais para estruturar informações.",
         imgUrl: nat2,
-        link: "https://www.canva.com/design/DAGEowJwJKw/Lu4jSOcrXwREDiNPFljwOg/edit?utm_content=DAGEowJwJKw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        link: "https://www.canva.com/design/DAGEowJwJKw/cFJswno6TeTeupiRGrv9_Q/view?utm_content=DAGEowJwJKw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview"
+      },
+      {
+        title: "Corrente Elétrica",
+        description: "Objetivo: Ter melhor conhecimento sobre a Guerra das Correntes usando uma forma divertida.\n\n Habilidades: Compreensão da história da Guerra das Correntes. Desenvolver melhor a imaginação.\n\nAssunto: A rivalidade entre Edison e George Westinghouse na disputa pela eletrificação dos EUA.\n\nCrítica Pessoal: Foi uma atividade divertida que mostra o impacto da rivalidade de duas pessoas importantes.",
+        imgUrl: nat4,
+        link: "https://www.canva.com/design/DAF8HJpRdOs/7qnAgOMm9wm6a4MR7skQsg/view?utm_content=DAF8HJpRdOs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
       },
       {
         title: "Cartaz Uso do Plástico",
         description: "Objetivo: Conscientizar sobre os impactos negativos do uso excessivo de plástico.\n\n Habilidades Desenvolvidas: Entender os problemas associados ao plástico. Criar o cartaz de modo atraente. Transmitir a mensagem de forma clara. \n\n Assunto: Aborda o impacto ambiental do plástico, como a poluição do ambiente e a ameaça à vida marinha e terrestre. \n\n Crítica Pessoal: O uso excessivo de plástico está cada vez ficando maior, afetando o meio ambiente e a saúde humana.",
         imgUrl: nat3,
-        link: "https://www.canva.com/design/DAGJ4zkgiLY/HIlZvN8C61lY7NQV2W_HaQ/edit?utm_content=DAGJ4zkgiLY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        link: "https://drive.google.com/file/d/1xY8741sQI4Ceqf8xdC5wv8Y7oIzK5Vop/view?usp=sharing"
       },
+      
 
       // Projetos de TI aqui
     ],
     ti: [
       {
-        title: "TI Project 1",
-        description: "Descrição do Projeto de TI 1",
-        imgUrl: projImg2,
+        title: "Sala de aula Invertida",
+        description: "Habilidades Desenvolvidas: Apresentação de metodologias ágeis e habilidades de comunicação e facilitação. \n\n Objetivo da Atividade: Ensinar e demonstrar a aplicação da metodologia Scrum em projetos. \n\n Assunto: Metodologia Scrum e suas práticas para gestão de projetos. \n\n Crítica Pessoal: A apresentação foi informativa e prática sobre a metodologia Scrum.",
+        link: "https://www.canva.com/design/DAGOCB9vZZc/bSVBnLQidXzicJ6pSKRNVA/view?utm_content=DAGOCB9vZZc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+        imgUrl: ti1,
       },
-
-      // Projetos de TI aqui
+      {
+        title: "Wireframe de Alta Fidelidade",
+        description: "Descrição do Projeto de TI 1",
+        link: "https://www.figma.com/design/Wx6TaYUznXaQeT8DZkTBpd/SA?node-id=0-1&t=IR79RsR2NMUbmOtZ-1",
+        imgUrl: ti2,
+      },
+      {
+        title: "Regra de Negócios - SA",
+        description: "Descrição do Projeto de TI 1",
+        imgUrl: ti3,
+      },
+    
+    
     ],
+    banco: [
+      {
+        title: "Modelo Lógico",
+        description: "aaaaaaaa",
+        imgUrl: ti4,
+        link: "https://docs.google.com/document/d/10CyJtvWkxJTfXrr87bm_DZGksfsvETQIMvDh7bJiE8o/edit?usp=sharing",
+      },
+      {
+        title: "Gestão de Consultório Médico",
+        description: "aaaaaaaa",
+        imgUrl: ti4,
+        link: "https://docs.google.com/document/d/10CyJtvWkxJTfXrr87bm_DZGksfsvETQIMvDh7bJiE8o/edit?usp=sharing",
+      },
+      {
+        title: "Normalização de Dados",
+        description: "aaaaaaaa",
+        imgUrl: ti6,
+        link: "https://docs.google.com/document/d/10CyJtvWkxJTfXrr87bm_DZGksfsvETQIMvDh7bJiE8o/edit?usp=sharing",
+      },
+    ],
+
+    desenvolvimento: [
+      {
+        title: "Calculadora de Horas",
+        description: "aaaaaaaa",
+        imgUrl: ti6,
+        link: "https://github.com/laraDrews/CalcHoras-Atualizado.git",
+      },
+      
+    ],
+
+    implantacao: [
+      {
+        
+      },
+      
+    ],
+
     ppe: [
       {
-        title: "Corrente Elétrica",
-        description: "Objetivo: Ter melhor conhecimento sobre a Guerra das Correntes usando uma forma divertida.\n\n Habilidades: Compreensão da história da Guerra das Correntes. Desenvolver melhor a imaginação.\n\nAssunto: A rivalidade entre Edison e George Westinghouse na disputa pela eletrificação dos EUA.\n\nCrítica Pessoal: Foi uma atividade divertida que mostra o impacto da rivalidade de duas pessoas importantes.",
-        imgUrl: nat4,
-        link: "https://www.canva.com/design/DAF8HJpRdOs/wcS3IExbPNuZnwHfL1aCxw/edit?utm_content=DAF8HJpRdOs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        
       },
       
     ],
@@ -129,12 +198,26 @@ export const Projects = () => {
                         <Nav.Link eventKey="natureza">Natureza</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="ti">TI</Nav.Link>
+                        <Nav.Link eventKey="ti">Modelagem de Sistemas</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                      <Nav.Link eventKey="banco">Banco de Dados</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                      <Nav.Link eventKey="desenvolvimento">Desenvolvimento de Sistemas</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                      <Nav.Link eventKey="implantacao">Implantação e Manutenção de Sistemas</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="ppe">PPE</Nav.Link>
                       </Nav.Item>
                     </Nav>
+                    <a href="https://drive.google.com/file/d/13Kd8fdelAKQlw1KdFxouENxG0wqdTB88/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <button onClick={() => console.log('connect')} style={{ display: 'flex', alignItems: 'center', width: 'auto', lineHeight: '30px', color: 'white', backgroundColor: 'transparent', border: 'none', fontSize: '18px' }}>
+                    CURSO <ArrowRightCircle size={25} style={{ marginLeft: '10px' }} />
+                    </button>
+                    </a><br></br>
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                       {Object.keys(projects).map(category => (
                         <Tab.Pane eventKey={category} key={category}>
