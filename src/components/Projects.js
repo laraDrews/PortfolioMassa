@@ -147,7 +147,7 @@ export const Projects = () => {
       },
       {
         title: "Normalização de Dados",
-        description: "aaaaaaaa",
+        description: "Habilidades Desenvolvidas: Design e análise de banco de dados, identificação de redundâncias.\n\nObjetivo: Organizar dados para minimizar redundâncias e garantir integridade.\n\nAssunto: Estruturação de dados em tabelas e relações, seguindo formas normais para evitar duplicidade e inconsistências.\n\nComentário Pessoal: A normalização melhora a eficiência e a integridade dos bancos de dados, tornando-os mais fáceis de manter e mais confiáveis.",
         imgUrl: ti6,
         link: "",
       },
