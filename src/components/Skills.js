@@ -34,7 +34,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>ROBLOXXXXXXXXXXXXXXXXXXXXX<br></br> ROBLOXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+                        <p><br></br> </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={c} alt="Image" />
@@ -53,16 +53,20 @@ export const Skills = () => {
                                 <h5>Natureza</h5>
                             </div>
                             <div className="item">
-                                <img src={a} alt="Image" />
-                                <h5>CSS</h5>
+                                <img src={b} alt="Image" />
+                                <h5>Implantação e Manutenção de Sistemas</h5>
                             </div>
                             <div className="item">
                                 <img src={b} alt="Image" />
                                 <h5>Desenvolvimento de sistemas</h5>
                             </div>
                             <div className="item">
-                                <img src={b} alt="Image" />
-                                <h5>Java</h5>
+                                <img src={c} alt="Image" />
+                                <h5>Desenvolvimento de Sistemas</h5>
+                            </div>
+                            <div className="item">
+                                <img src={d} alt="Image" />
+                                <h5>Banco de Dados</h5>
                             </div>
                         </Carousel>
                     </div>
