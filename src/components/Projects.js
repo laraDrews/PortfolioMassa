@@ -128,6 +128,7 @@ export const Projects = () => {
         title: "Regra de Negócios - SA",
         description: "Habilidades: Análise e modelagem de regras, documentação, comunicação e uso de ferramentas especializadas.\n\nObjetivo: Garantir consistência, eficiência e conformidade nas operações e decisões da organização.\n\nComentário Pessoal: É crucial para manter a organização alinhada com seus objetivos e assegurar operações eficazes e conformes.",
         imgUrl: ti3,
+        link: "https://docs.google.com/spreadsheets/d/1AnSrdhgOTi47XZTaShHE3acnrFfrSCtFk0P7T-XiuuY/edit?usp=sharing",
       },
     
     
@@ -149,7 +150,7 @@ export const Projects = () => {
         title: "Normalização de Dados",
         description: "Habilidades Desenvolvidas: Design e análise de banco de dados, identificação de redundâncias.\n\nObjetivo: Organizar dados para minimizar redundâncias e garantir integridade.\n\nAssunto: Estruturação de dados em tabelas e relações, seguindo formas normais para evitar duplicidade e inconsistências.\n\nComentário Pessoal: A normalização melhora a eficiência e a integridade dos bancos de dados, tornando-os mais fáceis de manter e mais confiáveis.",
         imgUrl: ti6,
-        link: "",
+        link: "https://docs.google.com/document/d/1v10QETfH7p4J-neUob96JjcjAopDSsHfXNrR7DHvM6s/edit?usp=sharing",
       },
     ],
 
