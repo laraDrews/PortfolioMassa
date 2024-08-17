@@ -23,6 +23,7 @@ import ti7 from "../assets/img/ti7.png";
 import ti8 from "../assets/img/ti8.png";
 import ti9 from "../assets/img/ti9.jpg";
 import ti10 from "../assets/img/ti10.png";
+import ti11 from "../assets/img/ti11.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -170,8 +171,8 @@ export const Projects = () => {
       {
         title: "Trabalho API",
         description: "Habilidades Desenvolvidas: Desenvolvimento de interfaces, consumo de APIs, gerenciamento de estado e componentização.\n\nObjetivo: Construir uma interface que se comunica com uma API para exibir e enviar dados, e atualizar em tempo real,\n\nAssunto: Integração da aplicação React com a API, gerenciando dados e interatividade.\n\nComentário Pessoal: Proporciona uma experiência interativa e responsiva, aproveitando as capacidades do React para atualizar a interface dinamicamente.",
-        imgUrl: ti8,
-        link: "https://github.com/laraDrews/API.git",
+        imgUrl: ti11,
+        link: "https://www.canva.com/design/DAGOHGHbLn0/Ev7SLJqpHxKC-t-kivMMHQ/view?utm_content=DAGOHGHbLn0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
       },
       {
         title: "Projeto Biblioteca",

@@ -60,14 +60,9 @@ export const Banner = () => {
                 <p>Eu sou o Roblox</p>
                 <br></br><br></br><br></br><br></br>
                 <div style={{ display: 'flex', gap: '10px' }}>
-                <a href="https://www.canva.com/design/DAFn2zn6DjQ/ZERhsp_M_1-B2yF_O8pLjw/edit?utm_content=DAFn2zn6DjQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
+                <a href= "http://portfolio-laradrews.vercel.app/?authuser=1&hl=pt-BR" target="_blank" rel="noopener noreferrer">
   <button onClick={() => console.log('connect')} style={{ display: 'flex', alignItems: 'center', marginRight: '50px' }}>
     Portfólio 1°tri <ArrowRightCircle size={25} />
-  </button>
-</a>
-<a href="http://portfolio-laradrews.vercel.app/?authuser=1&hl=pt-BR" target="_blank" rel="noopener noreferrer">
-  <button onClick={() => console.log('connect')} style={{ display: 'flex', alignItems: 'center', marginRight: '50px' }}>
-    Portfólio 2°tri <ArrowRightCircle size={25} />
   </button>
 </a>
 <a href="https://www.canva.com/design/DAGBdk-WYqE/R9SNRAXOpwJ19_MbG9GG3Q/edit?utm_content=DAGBdk-WYqE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
