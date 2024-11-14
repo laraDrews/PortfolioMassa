@@ -471,6 +471,70 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+
+
+/* Container dos botões de trimestre */
+.trimestre-buttons-container {
+  display: flex;
+  justify-content: center;  /* Alinha os botões ao centro horizontalmente */
+  align-items: center;      /* Alinha os botões verticalmente no centro */
+  gap: 10px;                /* Espaçamento entre os botões */
+  margin-bottom: 20px;      /* Espaçamento inferior */
+  width: 100%;              /* Certifique-se de que o container ocupe 100% da largura */
+}
+
+/* Estilo dos botões de trimestre */
+.trimestre {
+  position: relative;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 2px solid transparent; /* Inicialmente, sem borda visível */
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+  overflow: hidden; /* Garante que o gradiente não ultrapasse os limites do botão */
+  border-radius: 30px; /* Bordas bem arredondadas */
+  transition: color 0.3s ease, border-color 0.3s ease, width 0.3s ease;
+}
+
+/* Efeito de gradiente e contorno ao passar o mouse */
+.trimestre::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90.21deg, #c87fc9 -5.91%, #5f28a3 111.58%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+
+/* Estilo ativo do botão (quando o trimestre estiver selecionado) */
+.trimestre.active {
+  color: #fff;
+  border-color: #c87fc9; /* Cor da borda quando ativo */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.trimestre:hover {
+  color: #fff;
+  border-color: #c87fc9; /* Cor da borda ao passar o mouse */
+}
+
+.trimestre:hover::before {
+  width: 100%; /* Expande o gradiente quando o mouse passa sobre o botão */
+}
+
+/* Efeito de foco no botão */
+.trimestre:focus {
+  outline: none; /* Remove o contorno padrão */
+  box-shadow: 0 0 10px rgba(29, 53, 87, 0.6); /* Adiciona sombra suave quando o botão é clicado ou selecionado */
+}
+
+
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
