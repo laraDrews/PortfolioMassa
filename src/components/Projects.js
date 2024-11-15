@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { ProjectCard } from "./ProjectCard";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import colorSharp2 from "../assets/img/color-sharp2.png";
+//segundo tri
 import nat1 from "../assets/img/nat1.png";
 import nat2 from "../assets/img/nat2.png";
 import nat3 from "../assets/img/nat3.png";
@@ -10,7 +11,7 @@ import nat4 from "../assets/img/nat4.png";
 import mat1 from "../assets/img/mat1.png";
 import mat2 from "../assets/img/mat2.png";
 import lin1 from "../assets/img/lin1.jpg";
-import lin2 from "../assets/img/lin2.jpeg";
+import lin2 from "../assets/img/lin2.png";
 import hum1 from "../assets/img/hum1.jpg";
 import hum2 from "../assets/img/hum2.png";
 import hum3 from "../assets/img/hum3.jpg";
@@ -25,6 +26,16 @@ import ti8 from "../assets/img/ti8.png";
 import ti9 from "../assets/img/ti9.jpg";
 import ti10 from "../assets/img/ti10.png";
 import ti11 from "../assets/img/ti11.png";
+//terceiro tri
+import hum4 from "../assets/img/hum4.png";
+import hum5 from "../assets/img/hum5.png";
+import mat3 from "../assets/img/mat3.png";
+import nat5 from "../assets/img/nat5.png";
+import nat6 from "../assets/img/nat6.png";
+import nat7 from "../assets/img/nat7.png";
+import lin3 from "../assets/img/lin3.png";
+import lin4 from "../assets/img/lin4.jpeg";
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -35,7 +46,7 @@ export const Projects = () => {
 
   const projects = {
     
-    // Projetos de Humanas aqui
+    // Humanas segundo tri
     humanas: [
       {
         title: "Enigma",
@@ -58,8 +69,28 @@ export const Projects = () => {
         link: "https://www.canva.com/design/DAGOBwxN-EI/mCG57fc6M6OiLqjsYSQmsw/view?utm_content=DAGOBwxN-EI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
         trimestre: "segundo"     
       },
+      // Humanas terceiro tri
+      {
+        title: "Operação Condor",
+        description: "Fizemos uma apresentação sobre a Operação Condor, com o objetivo de explorar as dinâmicas de repressão e controle estabelecidas pelas ditaduras militares da América do Sul durante as décadas de 1970 e 1980. Competências e habilidades: C6 H39 H40 C6 H34 H35",
+        imgUrl: hum4,
+        link: "https://www.canva.com/design/DAGWjZIBdbM/zRHd9yNQ4QRPr94Gbjbi3Q/view?utm_content=DAGWjZIBdbM&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        trimestre: "terceiro"     
+      },
+      {
+        title: "Guerra Fria",
+        description: "Fizemos uma apresentação no Canva capaz de explicar a complexidade de conflitos, disputas, guerras, acordos e sentimentos relacionados à Guerra Fria. Competências e habilidades: C6 H39 H40 C5 H28 H30 H32",
+        imgUrl: hum5,
+        link: "https://www.canva.com/design/DAGWjf8zztU/Ohc7M_YmDyfLCmwGOGUOdQ/view?utm_content=DAGWjf8zztU&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        trimestre: "terceiro"     
+      },
 
-      // Projetos de Linguagens aqui
+      
+
+
+
+
+      //Linguagens segundo tri
     ],
     linguagens: [
       {
@@ -71,11 +102,35 @@ export const Projects = () => {
       },
       {
         title: "Maquete",
-        description: "Ainda não concluimos esse trabalho.",
+        description: "Fizemos uma maquete do quartinho do livro Solitária.",
         imgUrl: lin2,
         trimestre: "segundo"
       },
-      // Projetos de Matemática aqui
+      //Linguagens terceiro tri
+      {
+        title: "Redação Online",
+        description: "Fizemos em aula uma redação com o tema 'Medidas para combater a má alimentação entre os jovens no Brasil'.",
+        imgUrl: lin3,
+        trimestre: "terceiro"
+      },
+      {
+        title: "Revista Literária",
+        description: "Fizemos em aula uma redação com o tema 'Medidas para combater a má alimentação entre os jovens no Brasil'.",
+        imgUrl: lin4,
+        link: "https://www.canva.com/design/DAGCnlXR5dg/MlHaCVSJM7aT_lujJ1phBw/view?utm_content=DAGCnlXR5dg&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        trimestre: "terceiro"
+      },
+      {
+        title: "Tropicalismo e Poesia Concretista",
+        description: "Habilidades: H3 / H16.",
+        imgUrl: lin4,
+        link: "",
+        trimestre: "terceiro"
+      },
+
+
+
+      //Matemática segundo tri
     ],
     matematica: [
       {
@@ -92,8 +147,16 @@ export const Projects = () => {
         link: "https://www.canva.com/design/DAGJ_FQZHBM/P2Fzx4CF7fq-YkgKH5zlDg/edit?utm_content=DAGJ_FQZHBM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
         trimestre: "segundo"
       },
+      //Matemática terceiro tri
+      {
+        title: "Atividade Jujubinhas",
+        description: "Utilizando palitos de churrasco e balinhas de goma construimos os Poliedros de Platão: Tetraedro, Hexaedro e Octaedro.",
+        imgUrl: mat3,
+        link: "https://www.canva.com/design/DAGVzGB8Y7I/-MfO7l15AALM2gy66bu8xQ/view?utm_content=DAGVzGB8Y7I&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        trimestre: "terceiro"
+      },
       
-      // Projetos de Natureza aqui
+      //Natureza segundo tri
     ],
     natureza: [
       {
@@ -125,8 +188,34 @@ export const Projects = () => {
         trimestre: "segundo"
       },
       
+      //Natureza terceiro tri
+      {
+        title: "Desequilíbro Abiental",
+        description: "Fizemos uma apresetação que aborda o impacto humano no planeta, como o desmatamento, incêndios florestais, perda de biodiversidade, emissão de gases e derretimento de geleiras. Competêncais e Habilidades: C5- H27 e H28",
+        imgUrl: nat5,
+        link: "https://www.canva.com/design/DAGWjc9LSfM/UG9-qpQFgMlS7FfL58JPTg/view?utm_content=DAGWjc9LSfM&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        trimestre: "terceiro"
+      },
+      {
+        title: "Plano de expansão da produção de energia",
+        description: "Pelo jeito ainda nn fizemos isso.",
+        imgUrl: nat6,
+        link: "",
+        trimestre: "terceiro"
+      },
+      {
+        title: "Emissões Radioativas",
+        description: "Fiz uma apresentação sobre o enriquecimento do urânio mostrando como ocorre, as tapas do processo, países que dominam a tecnologia, utilização em Usinas Nucleares e curiosidades. Competência 5 e Habilidades 24, 25, 26, H27 e H28.",
+        imgUrl: nat7,
+        link: "https://www.canva.com/design/DAGPJGOmOpQ/soNBmf6-W-TKQCC8CZuTlw/view?utm_content=DAGPJGOmOpQ&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        trimestre: "terceiro"
+      },
 
-      // Projetos de TI aqui
+
+
+      
+
+      //TI segundo tri
     ],
     modelagem: [
       {
