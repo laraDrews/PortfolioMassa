@@ -65,12 +65,12 @@ export const Banner = () => {
     Portfólio 1°tri <ArrowRightCircle size={25} />
   </button>
 </a>
-<a href="https://www.canva.com/design/DAGBdk-WYqE/R9SNRAXOpwJ19_MbG9GG3Q/edit?utm_content=DAGBdk-WYqE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
+<a href="https://www.canva.com/design/DAGWwD5lGPU/rxx6A3zploRMWDAedwxiLQ/view?utm_content=DAGWwD5lGPU&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noopener noreferrer">
   <button onClick={() => console.log('connect')} style={{ display: 'flex', alignItems: 'center', marginRight: '50px' }}>
     Currículo <ArrowRightCircle size={25} />
   </button>
 </a>
-<a href="https://www.canva.com/design/DAGOBv_9XNg/iv0Zx2XxbE_XNlekG25k9A/edit?utm_content=DAGOBv_9XNg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
+<a href="https://www.canva.com/design/DAGWwHlE5_g/9aV3qBjUUd2_ixkRlCX7Kg/view?utm_content=DAGWwHlE5_g&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noopener noreferrer">
   <button onClick={() => console.log('connect')} style={{ display: 'flex', alignItems: 'center' }}>
     Carta de Apresentação <ArrowRightCircle size={25} />
   </button>

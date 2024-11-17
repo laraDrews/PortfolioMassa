@@ -1,7 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { useState } from 'react';
 import { ProjectCard } from "./ProjectCard";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import colorSharp2 from "../assets/img/color-sharp2.png";
 //segundo tri
 import nat1 from "../assets/img/nat1.png";
@@ -26,6 +25,7 @@ import ti8 from "../assets/img/ti8.png";
 import ti9 from "../assets/img/ti9.jpg";
 import ti10 from "../assets/img/ti10.png";
 import ti11 from "../assets/img/ti11.png";
+import ppe from "../assets/img/ppe.png";
 //terceiro tri
 import hum4 from "../assets/img/hum4.png";
 import hum5 from "../assets/img/hum5.png";
@@ -35,6 +35,13 @@ import nat6 from "../assets/img/nat6.png";
 import nat7 from "../assets/img/nat7.png";
 import lin3 from "../assets/img/lin3.png";
 import lin4 from "../assets/img/lin4.jpeg";
+import lin5 from "../assets/img/lin5.png";
+import ti12 from "../assets/img/ti12.png";
+import ti13 from "../assets/img/ti13.png";
+import ti14 from "../assets/img/ti14.png";
+import ti15 from "../assets/img/ti15.png";
+import ti16 from "../assets/img/ti16.png";
+
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -123,7 +130,7 @@ export const Projects = () => {
       {
         title: "Tropicalismo e Poesia Concretista",
         description: "Habilidades: H3 / H16.",
-        imgUrl: lin4,
+        imgUrl: lin5,
         link: "",
         trimestre: "terceiro"
       },
@@ -264,8 +271,25 @@ export const Projects = () => {
         link: "https://docs.google.com/document/d/1v10QETfH7p4J-neUob96JjcjAopDSsHfXNrR7DHvM6s/edit?usp=sharing",
         trimestre: "segundo"
       },
+
+      //terceiro tri
+      {
+        title: "Biblioteca",
+        description: "Praticamos os comando DDL e DML do SQL fazendo um código de uma biblioteca online. ",
+        imgUrl: ti12,
+        link: "https://docs.google.com/document/d/1YmRqCeW1pqtARlIBPgsQpa5Jz4V3AX0jexe7_DdzB7w/edit?usp=sharing. Habelidade: H4",
+        trimestre: "terceiro"
+      },
+      {
+        title: "Left e Right JOIN ",
+        description: "Aprendemos os últimos comandos SQL da disciplina e conhecemos um pouco da interface do PgAdmin para criar um banco de dados simples para gerenciar pedidos de uma loja. Habilidades: H4 e H5",
+        imgUrl: ti13,
+        link: "https://drive.google.com/file/d/1vCsMaEKVsI_jePvBK8WeZmOoK8M8aWiq/view?usp=sharing",
+        trimestre: "terceiro"
+      },
     ],
 
+    
     desenvolvimento: [
       {
         title: "Calculadora de Horas",
@@ -307,11 +331,48 @@ export const Projects = () => {
       },
     ],
 
-    ppe: [
+    aplicativos: [
       {
-        
+        title: "Atividade Express",
+        description: "Criamos um projeto com Express, adicionamos o nodemon, colocamos duas páginas html e uma css. Habilidades: H1 e H2.",
+        imgUrl: ti14,
+        link: "https://github.com/laraDrews/Tarefa-3.git",
+        trimestre: "terceiro"
+      },
+      {
+        title: "Tarefa 2",
+        description: "Criamos um novo projeto que aceite pacotes externos, instalamos o inquirer e o chalk e colocamos o inquirer para receber o nome e a idade do usuário. Habilidades: H3 e H4.",
+        imgUrl: ti15,
+        link: "https://github.com/laraDrews/tarefa2.git",
+        trimestre: "terceiro"
+      },
+    ],
+
+    teste: [
+      {
+        title: "Apresentação UC",
+        description: "Criamos slides sobre o conteúdo que vimos em aula relacionado a testes, e sobre o que aplicaram na prova.",
+        imgUrl: ti16,
+        link: "https://www.canva.com/design/DAGWvvGf2t8/ZHSkDmZEVMf255Xkefrmkw/view?utm_content=DAGWvvGf2t8&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        trimestre: "terceiro"
       },
       
+    ],
+
+
+    ppe: [
+      {
+        title: "Curso Cálculo Técnico",
+        imgUrl: ppe,
+        link: "https://drive.google.com/file/d/13Kd8fdelAKQlw1KdFxouENxG0wqdTB88/view?usp=sharing",
+        trimestre: "segundo"
+      },
+      {
+        title: "Curso Cálculo Técnico",
+        imgUrl: ppe,
+        link: "https://drive.google.com/file/d/13Kd8fdelAKQlw1KdFxouENxG0wqdTB88/view?usp=sharing",
+        trimestre: "terceiro"
+      },
     ],
   };
 
@@ -324,7 +385,7 @@ export const Projects = () => {
           {({ isVisible }) => (
             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
               <h2>Projetos</h2>
-              <p>Atividades Do Portfólio</p>
+              <p>Clique em algum dos trimestres para as atividades aparecerem!!</p>
               
               {/* Container para os botões de trimestre, agora centralizado */}
               <div className="trimestre-buttons-container">
@@ -341,41 +402,52 @@ export const Projects = () => {
                   <span>3º Trimestre</span>
                 </button>
               </div>
-                  <Tab.Container id="projects-tabs" activeKey={selectedCategory} onSelect={(key) => setSelectedCategory(key)}>
-                    <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                      <Nav.Item>
-                        <Nav.Link eventKey="humanas">Humanas</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="linguagens">Linguagens</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="matematica">Matemática</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="natureza">Natureza</Nav.Link>
-                      </Nav.Item>
+              <Tab.Container id="projects-tabs" activeKey={selectedCategory} onSelect={(key) => setSelectedCategory(key)}>
+                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                    <Nav.Item>
+                      <Nav.Link eventKey="humanas">Humanas</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="linguagens">Linguagens</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="matematica">Matemática</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="natureza">Natureza</Nav.Link>
+                    </Nav.Item>
+                    {/* "Modelagem de Sistemas" apenas no 2º Trimestre */}
+                    {selectedTrimestre === "segundo" && (
                       <Nav.Item>
                         <Nav.Link eventKey="modelagem">Modelagem de Sistemas</Nav.Link>
                       </Nav.Item>
+                    )}
+                    <Nav.Item>
+                      <Nav.Link eventKey="banco">Banco de Dados</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="desenvolvimento">Desenvolvimento de Sistemas</Nav.Link>
+                    </Nav.Item>
+                    {/* "Teste" apenas no 3º Trimestre */}
+                    {selectedTrimestre === "terceiro" && (
                       <Nav.Item>
-                        <Nav.Link eventKey="banco">Banco de Dados</Nav.Link>
+                        <Nav.Link eventKey="teste">Teste de Sistemas</Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="desenvolvimento">Desenvolvimento de Sistemas</Nav.Link>
-                      </Nav.Item>
+                    )}
+                    {selectedTrimestre === "segundo" && (
                       <Nav.Item>
                         <Nav.Link eventKey="implantacao">Implantação e Manutenção de Sistemas</Nav.Link>
                       </Nav.Item>
+                    )}
+                    {selectedTrimestre === "terceiro" && (
+                      <Nav.Item>
+                        <Nav.Link eventKey="aplicativos">Aplicativos</Nav.Link>
+                      </Nav.Item>
+                    )}
                       <Nav.Item>
                         <Nav.Link eventKey="ppe">PPE</Nav.Link>
                       </Nav.Item>
                     </Nav>
-                    <a href="https://drive.google.com/file/d/13Kd8fdelAKQlw1KdFxouENxG0wqdTB88/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                      <button onClick={() => console.log('connect')} style={{ display: 'flex', alignItems: 'center', width: 'auto', lineHeight: '30px', color: 'white', backgroundColor: 'transparent', border: 'none', fontSize: '18px' }}>
-                        CURSO <ArrowRightCircle size={25} style={{ marginLeft: '10px' }} />
-                      </button>
-                    </a><br />
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                       {Object.keys(projects).map(category => (
                         <Tab.Pane eventKey={category} key={category}>
