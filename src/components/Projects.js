@@ -340,10 +340,10 @@ export const Projects = () => {
         trimestre: "terceiro"
       },
       {
-        title: "Tarefa 2",
-        description: "Criamos um novo projeto que aceite pacotes externos, instalamos o inquirer e o chalk e colocamos o inquirer para receber o nome e a idade do usuário. Habilidades: H3 e H4.",
+        title: "Jogo da Velha",
+        description: "Criamos um jogo interativo de jogo-da-velha com React. Habilidades: H3 e H4.",
         imgUrl: ti15,
-        link: "https://github.com/laraDrews/tarefa2.git",
+        link: "https://github.com/laraDrews/jogoDaVelha.git",
         trimestre: "terceiro"
       },
     ],
@@ -441,7 +441,7 @@ export const Projects = () => {
                     )}
                     {selectedTrimestre === "terceiro" && (
                       <Nav.Item>
-                        <Nav.Link eventKey="aplicativos">Aplicativos</Nav.Link>
+                        <Nav.Link eventKey="aplicativos">Programação de Aplicativos</Nav.Link>
                       </Nav.Item>
                     )}
                       <Nav.Item>
