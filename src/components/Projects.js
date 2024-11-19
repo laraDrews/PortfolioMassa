@@ -129,17 +129,18 @@ export const Projects = () => {
         trimestre: "terceiro"
       },
       {
+        title: "Mini eu",
+        imgUrl: eu,
+        trimestre: "terceiro"
+      },
+      {
         title: "Tropicalismo e Poesia Concretista",
         description: "Escolhemos uma música e gravamos vários vídeos que condiziam com a letra, criando um videoclip. Habilidades: H3 / H16.",
         imgUrl: lin5,
         link: "https://drive.google.com/file/d/1LlH2clcwZ03oLRbTAVYKNjFCd8V2N88s/view?usp=sharing",
         trimestre: "terceiro"
       },
-      {
-        title: "Mini eu",
-        imgUrl: eu,
-        trimestre: "terceiro"
-      },
+      
 
 
 
