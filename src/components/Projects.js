@@ -41,6 +41,7 @@ import ti13 from "../assets/img/ti13.png";
 import ti14 from "../assets/img/ti14.png";
 import ti15 from "../assets/img/ti15.png";
 import ti16 from "../assets/img/ti16.png";
+import eu from "../assets/img/eu.png";
 
 
 import 'animate.css';
@@ -129,9 +130,14 @@ export const Projects = () => {
       },
       {
         title: "Tropicalismo e Poesia Concretista",
-        description: "Habilidades: H3 / H16.",
+        description: "Escolhemos uma música e gravamos vários vídeos que condiziam com a letra, criando um videoclip. Habilidades: H3 / H16.",
         imgUrl: lin5,
-        link: "",
+        link: "https://drive.google.com/file/d/1LlH2clcwZ03oLRbTAVYKNjFCd8V2N88s/view?usp=sharing",
+        trimestre: "terceiro"
+      },
+      {
+        title: "Mini eu",
+        imgUrl: eu,
         trimestre: "terceiro"
       },
 
