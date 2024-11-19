@@ -1,4 +1,4 @@
-/************ Custom Font ************/
+/*Fontes*/
 @font-face {
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Bold.ttf');
@@ -15,7 +15,7 @@
 	font-weight: 400;
 }
 
-/************ Default Css ************/
+/*Css*/
 * {
   margin: 0;
   padding: 0;
@@ -81,7 +81,7 @@ p.success {
 p.danger {
 	color: red;
 }
-/************ Navbar Css ************/
+/*Navbar Css */
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -234,7 +234,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
-/************ Banner Css ************/
+/*Banner Css */
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
@@ -304,7 +304,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
-/************ Skills Css ************/
+/*Skills Css */
 .skill {
   padding: 0 0 50px 0;
   position: relative;
@@ -345,7 +345,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/*Projects Css */
 .project {
   padding: 80px 0;
   position: relative;
@@ -394,7 +394,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #c87fc9 -5.91%, #5f28a3 111.58%);
+    background: linear-gradient(90.21deg, #57afb3 -5.91%, #072328 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -426,7 +426,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #d8a6d8 -5.91%, #3b1965 111.58%);
+  background: linear-gradient(90.21deg, #57afb3 -5.91%, #02191d 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -476,11 +476,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Container dos botões de trimestre */
 .trimestre-buttons-container {
   display: flex;
-  justify-content: center;  /* Alinha os botões ao centro horizontalmente */
-  align-items: center;      /* Alinha os botões verticalmente no centro */
-  gap: 10px;                /* Espaçamento entre os botões */
-  margin-bottom: 20px;      /* Espaçamento inferior */
-  width: 100%;              /* Certifique-se de que o container ocupe 100% da largura */
+  justify-content: center;  
+  align-items: center;      
+  gap: 10px;                
+  margin-bottom: 20px;      
+  width: 100%;              
 }
 
 /* Estilo dos botões de trimestre */
@@ -490,12 +490,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
-  border: 2px solid transparent; /* Inicialmente, sem borda visível */
-  color: #fff;
+  border: 2px solid transparent; 
+  color: #7d7d7d;
   background: transparent;
   cursor: pointer;
-  overflow: hidden; /* Garante que o gradiente não ultrapasse os limites do botão */
-  border-radius: 30px; /* Bordas bem arredondadas */
+  overflow: hidden;
+  border-radius: 30px;
   transition: color 0.3s ease, border-color 0.3s ease, width 0.3s ease;
 }
 
@@ -505,7 +505,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   width: 0;
   height: 100%;
-  background: linear-gradient(90.21deg, #c87fc9 -5.91%, #5f28a3 111.58%);
+  background: linear-gradient(90.21deg, #57afb3 -5.91%, #072328 111.58%);
   top: 0;
   left: 0;
   z-index: -1;
@@ -515,13 +515,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Estilo ativo do botão (quando o trimestre estiver selecionado) */
 .trimestre.active {
   color: #fff;
-  border-color: #c87fc9; /* Cor da borda quando ativo */
+  border-color: #104048; /* Cor da borda quando ativo */
 }
 
 /* Efeito ao passar o mouse sobre o botão */
 .trimestre:hover {
   color: #fff;
-  border-color: #c87fc9; /* Cor da borda ao passar o mouse */
+  border-color: #104048; /* Cor da borda ao passar o mouse */
 }
 
 .trimestre:hover::before {
@@ -531,13 +531,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Efeito de foco no botão */
 .trimestre:focus {
   outline: none; /* Remove o contorno padrão */
-  box-shadow: 0 0 10px rgba(29, 53, 87, 0.6); /* Adiciona sombra suave quando o botão é clicado ou selecionado */
+  box-shadow: 0 0 10px rgba(29, 53, 87, 0.6); /* Adiciona sombra quando o botão é clicado*/
 }
 
 
-/************ Projects Css ************/
+/*Projects Css*/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #57afb3 -5.91%, #072328 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
