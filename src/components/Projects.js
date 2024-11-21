@@ -125,7 +125,7 @@ export const Projects = () => {
         title: "Revista Literária",
         description: "Fizemos em aula uma redação com o tema 'Medidas para combater a má alimentação entre os jovens no Brasil'.",
         imgUrl: lin4,
-        link: "https://www.canva.com/design/DAGCnlXR5dg/MlHaCVSJM7aT_lujJ1phBw/view?utm_content=DAGCnlXR5dg&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        link: "https://www.canva.com/design/DAGXJPMrLgY/kxvBQ4GqxVmJfXLD4ydtFw/view?utm_content=DAGXJPMrLgY&utm_campaign=designshare&utm_medium=link&utm_source=editor",
         trimestre: "terceiro"
       },
       {
