@@ -74,7 +74,7 @@ export const Projects = () => {
         title: "ONHB",
         description: "Habilidades Desenvolvidas: Análise de eventos históricos, pesquisa sobre temas específicos da história do Brasil, e compreender contextos históricos. \n\n Objetivo da Atividade: Promover o estudo e o conhecimento da história do Brasil, incentivando a pesquisa, a reflexão crítica e a análise detalhada de eventos e períodos históricos. \n\n Assunto: História do Brasil, incluindo eventos, figuras importantes e períodos significativos que moldaram o país. \n\n Crítica Pessoal: A Olimpíada oferece uma ótima oportunidade para aprofundar o conhecimento.",
         imgUrl: hum3,
-        link: "https://www.canva.com/design/DAGOBwxN-EI/mCG57fc6M6OiLqjsYSQmsw/view?utm_content=DAGOBwxN-EI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+        link: "https://www.canva.com/design/DAGYMVSRpXk/KduvWRfr4BoFvJndFf3y-A/view?utm_content=DAGYMVSRpXk&utm_campaign=designshare&utm_medium=link&utm_source=editor",
         trimestre: "segundo"     
       },
       // Humanas terceiro tri
